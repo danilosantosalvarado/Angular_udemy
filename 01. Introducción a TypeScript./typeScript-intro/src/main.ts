@@ -6,7 +6,8 @@ import { setupCounter } from './counter.ts'
 // import './topic/02-objet-interface';
 // import './topic/03-functions'
 // import './topic/04-funciones-objetos como argumentos'
-import './topic/05-homewort-type.ts';
+// import './topic/05-homewort-type';
+import './topic/06-desestructuración';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

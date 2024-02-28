@@ -5,12 +5,14 @@
 interface SuperHero {
     name: string;
     age: number;
-    address: {
-        calle: string;
-        pais: string;
-        ciudad: string;
-    };
-    showAddress(): string;
+    address: Address;
+    showAddress:() => string;
+};
+
+interface Address {
+    calle: string;
+    pais: string;
+    city: string;
 };
 
 const superHeroe: SuperHero = {
@@ -19,10 +21,10 @@ const superHeroe: SuperHero = {
     address: {
         calle: 'Main St',
         pais: 'USA',
-        ciudad: 'NY'
+        city: 'NY'
     },
     showAddress(){
-        return this.name + ', ' + this.address.ciudad + ', ' + this.address.pais;
+        return this.name + ', ' + this.address.city + ', ' + this.address.pais;
     }
 }
 
