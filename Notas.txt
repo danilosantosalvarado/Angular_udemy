@@ -1,0 +1,30 @@
+### promesas ,callback, fetch
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+===========| 1. Introducción a TypeScript
+  npm create vite
+    -->Proyect name: typescript-Introducción
+    -->Select framework: vanila
+    -->lenguas: TypeScript
+
+  cd typescript-Introducción
+  npm install
+  npm rum dev
+
+===========| Tipos básicos
+
+===========| Objetos, arreglos e interfaces
+
+===========| Funciones y sus argumentos
+
+===========| Desestructuración de arreglos y objetos
+
+===========| Importaciones y exportaciones
+
+===========| Clases, constructores
+
+===========| Tipos genéricos
+
+===========| Decoradores
